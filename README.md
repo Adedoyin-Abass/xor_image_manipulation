@@ -1,7 +1,6 @@
 # PRODIGY_CS_02
 Image Encryption Using Simple Pixel Manipulation
 
-Simple XOR Image Encryptor/Decryptor
 This Python tool offers a straightforward method for encrypting and decrypting images using a simple XOR operation. It's a great example for understanding fundamental image manipulation and cryptographic concepts, though it's not intended for secure encryption of sensitive data.
 
 ## Features
@@ -9,19 +8,18 @@ This Python tool offers a straightforward method for encrypting and decrypting i
 * Simple Command-Line Interface: Easy-to-use prompts guide you through the process of selecting an image, specifying an output file, and entering a key.
 * Handles Common Image Formats: Utilizes the Pillow library to support a wide range of image formats (e.g., PNG, JPG, BMP) by converting them to RGB for consistent processing.
 
-How it Works
+## How it Works
 The core of this tool is the xor_encrypt_decrypt function:
 
-*Image Loading: Opens the specified image file and converts it to RGB mode to ensure consistent pixel data (each pixel represented by Red, Green, and Blue values).
-*Key Conversion: The provided string key is converted into a sequence of bytes.
-*Pixel Iteration: The tool iterates through every pixel in the image.
+* Image Loading: Opens the specified image file and converts it to RGB mode to ensure consistent pixel data (each pixel represented by Red, Green, and Blue values).
+* Key Conversion: The provided string key is converted into a sequence of bytes.
+* Pixel Iteration: The tool iterates through every pixel in the image.
 * XOR Operation: For each pixel's Red, Green, and Blue components, a XOR operation is performed with a corresponding byte from the key. The key bytes are cycled through using the modulo operator to ensure the key is applied repeatedly across the entire image.
 * Image Saving: The modified pixel data is then saved as a new image file.
 To decrypt an image, you simply rerun the script on the encrypted image using the exact same key. The XOR operation will reverse the encryption.
 
 ## Prerequisites
 Before running this tool, you need to have Python and the Pillow library installed.
-
 * Python 3.x
 * Pillow Library: You can install it using pip on your terminal: 
 Type 'pip install Pillow'
