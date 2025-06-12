@@ -1,4 +1,4 @@
-# PRODIGY_CS_02
+XOR Image Manipulation
 Image Encryption Using Simple Pixel Manipulation
 
 This Python tool offers a straightforward method for encrypting and decrypting images using a simple XOR operation. It's a great example for understanding fundamental image manipulation and cryptographic concepts, though it's not intended for secure encryption of sensitive data.
