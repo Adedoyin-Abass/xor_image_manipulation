@@ -26,14 +26,16 @@ Type 'pip install Pillow'
 Or py -m pip install Pillow (if your code editor is returning an error message stating that 'pip' is not recognized as the name of a cmdlet, function, script file, or operable program.)
 
 ## Usage
-* Save the Code: Save the provided Python code as a .py file (e.g., image_xor.py).
-* Run from Terminal: Open your terminal or command prompt, navigate to the directory where you saved the file, and run the script:
-* Follow the Prompts: The program will guide you through the following steps:
+1. Save the Code: Save the provided Python code as a .py file (e.g., image_xor.py).
+2. Run from Terminal: Open your terminal or command prompt, navigate to the directory where you saved the file, and run the script:
+3. Follow the Prompts: The program will guide you through the following steps:
 
   * Choose to (E)ncrypt, (D)ecrypt, or (Q)uit.
   * Enter the path to your input image file (e.g., my_photo.png).
   * Enter the desired output file name (e.g., encrypted_photo.png or decrypted_photo.png).
   * Provide an encryption/decryption key (any string of characters). Remember this key! You'll need the same key to decrypt the image.
+ 
+ ![Alt text](https://github.com/Ubuntu-Dekiru/PRODIGY_CS_02/blob/main/screenshots/Screenshot%202025-06-12%20033427.png)
 
 ## Limitations and Security Considerations
 * Not for Secure Encryption: This XOR-based method is very basic and offers minimal security. It's susceptible to various cryptanalytic attacks (e.g., frequency analysis, known-plaintext attacks). Do not use this for sensitive or confidential data.
