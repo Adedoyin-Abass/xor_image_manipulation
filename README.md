@@ -1,4 +1,4 @@
-XOR Image Manipulation
+## XOR Image Manipulation
 Image Encryption Using Simple Pixel Manipulation
 
 This Python tool offers a straightforward method for encrypting and decrypting images using a simple XOR operation. It's a great example for understanding fundamental image manipulation and cryptographic concepts, though it's not intended for secure encryption of sensitive data.
@@ -22,15 +22,15 @@ To decrypt an image, you simply rerun the script on the encrypted image using th
 Before running this tool, you need to have Python and the Pillow library installed.
 * Python 3.x
 * Pillow Library: You can install it using pip on your terminal: 
-Type 'pip install Pillow'
-Or py -m pip install Pillow (if your code editor is returning an error message stating that 'pip' is not recognized as the name of a cmdlet, function, script file, or operable program.)
+Type `pip install Pillow`
+Or `py -m pip install Pillow` (if your code editor is returning an error message stating that 'pip' is not recognized as the name of a cmdlet, function, script file, or operable program.)
 
 ## Usage
 1. Save the Code: Save the provided Python code as a .py file (e.g., image_xor.py).
 2. Run from Terminal: Open your terminal or command prompt, navigate to the directory where you saved the file, and run the script:
 3. Follow the Prompts: The program will guide you through the following steps:
 
-  * Choose to (E)ncrypt, (D)ecrypt, or (Q)uit.
+  * Choose to `(E)ncrypt`, `(D)ecrypt`, or `(Q)uit`.
   * Enter the path to your input image file (e.g., my_photo.png).
   * Enter the desired output file name (e.g., encrypted_photo.png or decrypted_photo.png).
   * Provide an encryption/decryption key (any string of characters). Remember this key! You'll need the same key to decrypt the image.
