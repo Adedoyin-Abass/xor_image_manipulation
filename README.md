@@ -19,14 +19,16 @@ The core of this tool is the xor_encrypt_decrypt function:
 To decrypt an image, you simply rerun the script on the encrypted image using the same key. The XOR operation will reverse the encryption.
 
 ## Prerequisites
-Before running this tool, you need to have Python and the Pillow library installed.
-* Python 3.x
+Before running this tool, you need to have `Python` and the `Pillow library` installed.
+* Install `Python3.x`
+  * To run this on `Linux`, you should use the script `sudo apt install python3`.
+  * To run on `macOS`, install `Homebrew`, then install Python with `brew install python`.
 * Pillow Library: You can install it using pip on your terminal: 
 Type `pip install Pillow`
 Or `py -m pip install Pillow` (if your code editor is returning an error message stating that 'pip' is not recognized as the name of a cmdlet, function, script file, or operable program.)
 
 ## Usage
-1. Save the Code: Save the provided Python code as a .py file (e.g., image_xor.py).
+1. Save the Code: Save the provided Python code as a `.py` file (e.g., image_xor.py).
 2. Run from Terminal: Open your terminal or command prompt, navigate to the directory where you saved the file, and run the script:
 3. Follow the Prompts: The program will guide you through the following steps:
 
