@@ -37,7 +37,7 @@ Or `py -m pip install Pillow` (if your code editor is returning an error message
   * Enter the desired output file name (e.g., encrypted_photo.png or decrypted_photo.png).
   * Provide an encryption/decryption key (any string of characters). Remember this key! You'll need the same key to decrypt the image.
  
- ![Alt text](https://github.com/Ubuntu-Dekiru/xor_image_manipulation/blob/main/screenshots/Screenshot%202025-06-12%20033427.png)
+ ![Alt text](https://github.com/Adedoyin-Abass/xor_image_manipulation/blob/main/screenshots/Screenshot%202025-06-12%20033427.png)
 
 ## Limitations and Security Considerations
 * Not for Secure Encryption: This XOR-based method is very basic and offers minimal security. It's susceptible to various cryptanalytic attacks (e.g., frequency analysis, known-plaintext attacks). Do not use this for sensitive or confidential data.
@@ -52,4 +52,4 @@ Feel free to fork this repository, make improvements, and submit pull requests. 
 This project is open source and available under the MIT License.
 
 ## Author
-Adedoyin Abass / https://github.com/Ubuntu-Dekiru
+Adedoyin Abass / https://github.com/Adedoyin-Abass
